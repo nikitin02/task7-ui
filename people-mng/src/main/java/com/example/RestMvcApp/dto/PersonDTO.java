@@ -37,7 +37,6 @@ public class PersonDTO {
 
     @Email(message = "Incorrect email")
     @NotEmpty
-    @Pattern(regexp = "\\w+")
     private String email;
 
 
